@@ -1,0 +1,12 @@
+<svg width="400" height="225" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="checker" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#e2e8f0"/>
+      <rect x="8" width="8" height="8" fill="#f1f5f9"/>
+      <rect y="8" width="8" height="8" fill="#f1f5f9"/>
+      <rect x="8" y="8" width="8" height="8" fill="#e2e8f0"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="225" fill="url(#checker)"/>
+</svg>
+

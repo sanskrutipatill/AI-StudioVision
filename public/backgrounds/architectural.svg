@@ -1,0 +1,17 @@
+<svg width="400" height="225" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="conc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="tfloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="140" fill="url(#conc)"/>
+  <rect y="140" width="400" height="85" fill="url(#tfloor)"/>
+  <rect width="400" height="24" fill="#0f172a"/>
+  <text x="20" y="16" fill="#94a3b8" font-family="sans-serif" font-size="9" font-weight="bold" letter-spacing="1.5">DEALER CERTIFIED PRE-OWNED</text>
+</svg>
+

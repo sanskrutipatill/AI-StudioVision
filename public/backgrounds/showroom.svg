@@ -1,0 +1,18 @@
+<svg width="400" height="225" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141824"/>
+      <stop offset="100%" stop-color="#2a334a"/>
+    </linearGradient>
+    <linearGradient id="sfloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181c24"/>
+      <stop offset="100%" stop-color="#0e1118"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="140" fill="url(#swall)"/>
+  <rect y="140" width="400" height="85" fill="url(#sfloor)"/>
+  <rect x="30" width="12" height="140" fill="#111520" opacity="0.6"/>
+  <rect x="360" width="12" height="140" fill="#111520" opacity="0.6"/>
+  <ellipse cx="200" cy="175" rx="150" ry="30" fill="#38bdf8" opacity="0.1"/>
+</svg>
+
