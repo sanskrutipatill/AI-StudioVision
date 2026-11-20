@@ -4,6 +4,8 @@ import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { INITIAL_IMAGES, INITIAL_PROCESSED_IMAGES } from '@/lib/store/vehicle-store';
 import { ProcessedImage } from '@/types/vehicle';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: Request) {
   try {
     const {

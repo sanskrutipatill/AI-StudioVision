@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useState, useEffect, use } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import {
   ChevronLeft,
   Sparkles,
@@ -37,8 +38,8 @@ export default function VehicleDetailPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const resolvedParams = use(params);
-  const vehicleId = resolvedParams.id;
+  const routeParams = useParams();
+  const vehicleId = (routeParams?.id as string) || '';
 
   const [vehicle, setVehicle] = useState<Vehicle | null>(null);
   const [uploadedImages, setUploadedImages] = useState<UploadedImage[]>([]);

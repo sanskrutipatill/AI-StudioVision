@@ -162,3 +162,4 @@ test('Truth-in-Merchandising - Guaranteed preservation of factual specs without 
   assert.ok(listing.key_highlights.includes('PDLS+ Headlights'));
   assert.ok(listing.seo_title.length <= 65);
 });
+

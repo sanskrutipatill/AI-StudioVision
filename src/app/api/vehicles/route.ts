@@ -3,6 +3,8 @@ import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { INITIAL_VEHICLES, INITIAL_IMAGES } from '@/lib/store/vehicle-store';
 import { Vehicle, UploadedImage } from '@/types/vehicle';
 
+export const dynamic = 'force-dynamic';
+
 // In-memory runtime storage for when Supabase is not yet populated
 let memoryVehicles: Vehicle[] = [...INITIAL_VEHICLES];
 let memoryImages: UploadedImage[] = [...INITIAL_IMAGES];

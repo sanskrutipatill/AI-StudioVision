@@ -4,6 +4,8 @@ import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { INITIAL_VEHICLES, INITIAL_IMAGES, INITIAL_LISTINGS } from '@/lib/store/vehicle-store';
 import { Listing, Vehicle } from '@/types/vehicle';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: Request) {
   try {
     const { vehicleId, customVehicleData } = await request.json();

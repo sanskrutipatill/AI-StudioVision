@@ -3,6 +3,8 @@ import { analyzeVehicleImageWithGemini } from '@/lib/ai/gemini-vision';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { INITIAL_IMAGES } from '@/lib/store/vehicle-store';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: Request) {
   try {
     const { imageId, imageUrl, imageBase64, mimeType, vehicleContext } = await request.json();

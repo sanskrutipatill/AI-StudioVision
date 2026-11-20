@@ -8,6 +8,8 @@ import {
 } from '@/lib/store/vehicle-store';
 import { evaluateVehicleMerchandisingQuality } from '@/lib/ai/quality-checker';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(
   request: Request,
   { params }: { params: Promise<{ id: string }> }
